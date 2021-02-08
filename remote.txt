@@ -1,0 +1,16 @@
+created a repo on github.com named basic_repo
+mkdir basic_repo to create directory
+git init to create local repo
+used vscode to make a forms.html styles.css and interactive.js
+git add . to add all files since the last commit
+git commit -m to commit repo with comment of initial remote repo
+git remote add origin https://github.com/Dhobby/basic_repo.git to create remote repo
+git push origin master to upload basic_repo to git hub
+cd .. to go up a folder
+git rm -rf to delete basic_repo directory and all of its files
+git clone https://github.com/Dhobby/basic_repo.git to make a copy of the remote repository on my local drive
+used vscode to add code to forms.html
+cd basic_repo
+git add . to stage changed files
+git commit -m to commit with comment of updated forms.html
+git push origin master to update basic_repo on git hub
