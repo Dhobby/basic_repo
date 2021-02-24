@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     
     <!-- Optional JavaScript -->
@@ -11,11 +10,100 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  
+<link rel="stylesheet" href="style.css">
 
-    <title>Document</title>
+    <title>Bootstrap Project</title>
 </head>
 <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-2 fixed-top">
+      <a class="navbar-brand" href="#">DH IT Solutions</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <main class="container pb-4">
+    <!--Jumbotron-->
+    <div class="jumbotron ">
+      <div class="container">
+        <h1 class="display-3">New Tech!</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quis explicabo sunt dolorem assumenda earum. Ut beatae recusandae debitis, optio illo maxime saepe temporibus tenetur nisi laboriosam, velit possimus deserunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium eum commodi incidunt quasi, tempora rem tenetur alias quia aliquid magni officiis molestiae, qui consequuntur autem cum explicabo, quis veniam nemo?</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>  
+    </div>
+    <!--container grids-->
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Networking</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, accusantium quo. Architecto veritatis neque amet tempora eligendi natus repudiandae, veniam consequatur fugiat ullam adipisci ducimus reiciendis quisquam quos aliquid nobis.</p>
+        <p><a href="#" class="btn btn-secondary">Go somewhere</a></p>
+      </div>
+      <div class="col-md-4">
+        <h3>Web Development</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, eaque necessitatibus nulla est quis impedit totam iusto blanditiis exercitationem sunt neque voluptate dolorum at eos expedita ex iure ipsa porro.</p>
+        <p><a href="#" class="btn btn-secondary">Go somewhere</a></p>
+      </div>
+      <div class="col-md-4">
+        <h3>Appointment</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, reprehenderit saepe! Quia delectus ipsum nobis necessitatibus, esse, vero autem expedita doloremque, perferendis mollitia officia dolor sequi sunt tempore ipsa facere..</p>
+        <p><a href="#" class="btn btn-secondary">Go somewhere</a></p>
+      </div>
+    </div>
+    <form class="container p-1 d-flex justify-content-center">
+      <div class="row">
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="Email">
+        </div>
+        <div class="col-3">
+          <input type="text" class="form-control" placeholder="Phone">
+        </div>
+        <div class="col-12">
+          <input type="text" class="form-control" placeholder="Let us know how we can help."
+        </div>
+      </div>
+    </form>
+    </main>
+    <hr>
+    <!--Footer-->
+    <footer class="container my-2">
+      <p>DH IT Solutions &copy 2021</p> 
+    </footer>
     
 </body>
 </html>
